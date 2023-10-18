@@ -1,6 +1,12 @@
 # Jaal Yantra: Automating Fashion with Speed
 
-Just run `python enq.py process photos` 
+Just run 
+
+```
+python -m pip install -r requirements.txt  
+python enq.py process photos
+
+``` 
 
 
 ## Introduction
