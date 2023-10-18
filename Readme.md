@@ -6,6 +6,27 @@ Just run `python enq.py process photos`
 ## Introduction
 At **Jaal Yantra**, we are not just another textile company. We are an embodiment of passion and dedication, focused on revolutionizing the fashion industry by merging traditional designs with futuristic technology. Our vision is to bring the world fashion with unparalleled speed and precision. Like any major textile company, we are inundated with an array of vibrant and intricate photos that capture the essence of our brand. But in this vast sea of images, we saw an opportunity: an opportunity to innovate, automate, and accelerate our processes.
 
+## Features
+1. Multithreaded Processing:
+
+The tool uses Python's threading and queue modules to create a pool of worker threads. This allows it to process multiple images concurrently, significantly speeding up batch operations.
+
+2. Image Processing:
+
+Process images to detect faces and extract features. Specifically designed for images with a single face.
+
+3. Clustering and Organizing:
+
+Cluster processed images based on extracted features and organize them accordingly. This aids in categorization and tagging.
+
+4. Image Conversion:
+
+Convert images from .JPG format to .JPEG format, aiding in standardization.
+
+5. Sample Model Execution:
+
+Test your system's GPU capability by running a sample deep learning model.
+
 ## The Challenge
 The digital age brings with it a deluge of images. For a fashion-forward company like ours, these aren't just images; they are a reflection of our brand, our designs, and our story. But with thousands of images, how do we efficiently categorize, tag, and upload them to our e-commerce platform? Manual categorization is not only time-consuming but also prone to errors.
 
