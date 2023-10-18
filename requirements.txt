@@ -1,0 +1,11 @@
+tensorflow
+numpy
+scikit-learn
+Pillow
+tensorflow-macos
+tensorflow-metal
+rq
+facenet-pytorch
+flask
+opencv-python-headless
+scikit-image
