@@ -3,3 +3,4 @@ __pycache__
 .ipynb_checkpoints
 image_features.db
 image_processing.log
+.DS_Store
