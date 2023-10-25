@@ -8,6 +8,7 @@ python enq.py process photos
 
 ``` 
 
+export PYTHONPATH=$PYTHONPATH:~/Documents/face-feature/models/research/
 
 ## Introduction
 At **Jaal Yantra**, we are not just another textile company. We are an embodiment of passion and dedication, focused on revolutionizing the fashion industry by merging traditional designs with futuristic technology. Our vision is to bring the world fashion with unparalleled speed and precision. Like any major textile company, we are inundated with an array of vibrant and intricate photos that capture the essence of our brand. But in this vast sea of images, we saw an opportunity: an opportunity to innovate, automate, and accelerate our processes.
