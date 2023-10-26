@@ -1,34 +1,14 @@
-photos
-__pycache__
-.ipynb_checkpoints
+# Exclude specific files
+.DS_Store
 image_features.db
 image_processing.log
-.DS_Store
-faster_rcnn_resnet101_v1_640x640_coco17_tpu-8
-faster_rcnn_resnet101_v1_1024x1024_coco17_tpu-8
-faster_rcnn_openimages_v4_inception_resnet_v2_1
-converted
-faster_rcnn_resnet50_v1_1024x1024_coco17_tpu-8
-faster_rcnn_resnet152_v1_1024x1024_coco17_tpu-8
-log_dir
-model-using
-models/
-object_detection.egg-info
 body.py
-5
-build
-clustering.log
-deploy.prototxt.txt
 detect_body_test.py
-faster_rcnn_openimages_v4_inception_resnet_v2_1.tar
-faster_rcnn_resnet50_v1_1024x1024_coco17_tpu-8.tar
-faster_rcnn_resnet101_v1_1024x1024_coco17_tpu-8.tar
-faster_rcnn_resnet152_v1_1024x1024_coco17_tpu-8.tar
+deploy.prototxt.txt
 feature_comparison.py
 image1-tesnsorflow.jpeg
 images_comparison.db
 main.py
-model-using.tar
 multiple.py
 output_image.png
 output1_with_boxes.jpg
@@ -40,3 +20,25 @@ Similarity Euclid Methods.ipynb
 single.py
 tensor.log
 
+# Exclude directories (and their contents)
+photos/
+__pycache__/
+.ipynb_checkpoints/
+faster_rcnn_resnet101_v1_640x640_coco17_tpu-8/
+faster_rcnn_resnet101_v1_1024x1024_coco17_tpu-8/
+faster_rcnn_openimages_v4_inception_resnet_v2_1/
+converted/
+faster_rcnn_resnet50_v1_1024x1024_coco17_tpu-8/
+faster_rcnn_resnet152_v1_1024x1024_coco17_tpu-8/
+log_dir/
+model-using/
+models/
+object_detection.egg-info/
+5/
+build/
+clustering.log
+
+
+
+# Ignore all .tar files
+*.tar
