@@ -8,7 +8,12 @@ python enq.py process photos
 
 ``` 
 
-export PYTHONPATH=$PYTHONPATH:~/Documents/face-feature/models/research/
+```
+export PYTHONPATH=$PYTHONPATH:~/Documents/models/research/
+
+```
+
+![Clustering Visualization](scatter_plot.png)
 
 ## Introduction
 At **Jaal Yantra**, we are not just another textile company. We are an embodiment of passion and dedication, focused on revolutionizing the fashion industry by merging traditional designs with futuristic technology. Our vision is to bring the world fashion with unparalleled speed and precision. Like any major textile company, we are inundated with an array of vibrant and intricate photos that capture the essence of our brand. But in this vast sea of images, we saw an opportunity: an opportunity to innovate, automate, and accelerate our processes.
@@ -66,3 +71,4 @@ Enter our state-of-the-art image processing tool. This tool is not just about id
 
 ## Conclusion
 Jaal Yantra is more than just a name; it's a symbol of innovation in the fashion industry. With our cutting-edge image processing tool, we are set to redefine the way textile companies view and manage their images. Join us on this exciting journey as we weave technology into the fabric of fashion, one image at a time.
+
