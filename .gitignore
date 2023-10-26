@@ -37,6 +37,7 @@ object_detection.egg-info/
 5/
 build/
 clustering.log
+models/
 
 
 
