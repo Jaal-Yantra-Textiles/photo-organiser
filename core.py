@@ -25,10 +25,12 @@ from feature import extract_pattern_features, extract_texture_features , get_per
 from logger_util import logger
 
 # Model related path
+## Model-using is Faster RCNN Resnet 1024 
+## second model is mobilenet
 LOCAL_MODEL_PATH = 'model-using'
-LOCAL_MODEL_PATH2 = '5'
+LOCAL_MODEL_PATH_FEATURE = '5'
 model = tf.saved_model.load(LOCAL_MODEL_PATH)
-feature_extractor = hub.KerasLayer(LOCAL_MODEL_PATH2, trainable=False)
+feature_extractor = hub.KerasLayer(LOCAL_MODEL_PATH_FEATURE, trainable=False)
 
 db_path = "images_comparison.db"
 

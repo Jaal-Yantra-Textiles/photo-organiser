@@ -72,3 +72,10 @@ Enter our state-of-the-art image processing tool. This tool is not just about id
 ## Conclusion
 Jaal Yantra is more than just a name; it's a symbol of innovation in the fashion industry. With our cutting-edge image processing tool, we are set to redefine the way textile companies view and manage their images. Join us on this exciting journey as we weave technology into the fabric of fashion, one image at a time.
 
+
+## Todo 
+
+1. Organise the code 
+2. Implement the improved similarity index 
+3. Work on training data set with labels
+4. Organise the funct
